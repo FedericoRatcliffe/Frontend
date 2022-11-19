@@ -1,0 +1,16 @@
+
+<!--MENU/NAVBAR-->
+<header>
+  <nav>
+    <div class="DivLogo">
+      <a href="index.html"><img src="../assets/img/logo.svg" alt="" class="LogoClass"></a>
+    </div>
+
+    <!--BOTONES CON LA PROPIEDAD CLICK DE ANGULAR-->
+    <ul class="menu">
+      <li><button (click)="Listar()" class="btn btn-success">Listar</button></li>
+      <li><button (click)="Nuevo()" class="btn btn-success">Agregar</button></li>
+    </ul>
+  </nav>
+</header>
+<router-outlet></router-outlet>
